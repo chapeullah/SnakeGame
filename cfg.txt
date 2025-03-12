@@ -1,0 +1,9 @@
+musicVolume=8
+musicSliderInt=25
+isMusic=1
+soundVolume=8
+soundSliderInt=25
+isSound=1
+moveInterval=0.24
+choseItem=2
+token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDE4NjE1NTMsImlzcyI6IlNuYWtlU2VydmVyIiwic3ViIjoiMTIzcXdlIn0.FHXCdXLZr3iroI16Jnzc_W-w9NkdMyVz5WLkrPZPVLU
