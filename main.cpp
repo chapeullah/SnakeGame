@@ -1661,8 +1661,8 @@ class Game {
 };
 
 int main(){
-    if (!SetDllDirectoryA("libs")) std::cerr << "Failed to set DLL directory. Error: " << GetLastError() << std::endl;
-    else std::cout << "DLL directory set to libs/\n";
+    /*if (!SetDllDirectoryA("libs")) std::cerr << "Failed to set DLL directory. Error: " << GetLastError() << std::endl;
+    else std::cout << "DLL directory set to libs/\n";*/
     Game Game;
     Game.gameWindow();
     return 0;
