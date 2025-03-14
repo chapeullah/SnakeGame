@@ -40,11 +40,14 @@ class ServerClient {
     ServerClient() : client("https://localhost:8080") {
         client.set_default_headers({{"Content-Type", "application/json"}});
         client.set_ca_cert_path("server-cert.pem");
-        std::shared_ptr<httplib::Response> res = client.Get("/");
+        httplib::Result res = client.Get("/");
         if (res && res->status == 200) {
             isOnline = true;
             std::cout << "Connected to server https://localhost:8080\n";
-        } else std::cout << "Connection to server failed! No response.\n";
+        } else {
+            isOnline = false;
+            std::cout << "Connection to server failed! No response.\n";
+        }
     }
 
     bool isTokenValid() {
