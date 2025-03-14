@@ -21,6 +21,10 @@ class ServerClient {
     httplib::Client client;
     
     bool sendPostRequest(const std::string& endpoint, const nlohmann::json& body) {
+        if (!isOnline) {
+            std::cout << "No connection to server.\n";
+            return false;
+        }
         if (!client.is_valid()) {
             std::cerr << "Error: client invalid!" << std::endl;
             return false;
@@ -44,6 +48,10 @@ class ServerClient {
     }
 
     bool isTokenValid() {
+        if (!isOnline) {
+            std::cout << "No connection to server.\n";
+            return false;
+        }
         if (token.empty()) {
             std::cerr << "Token is empty.\n";
             isAuthorized = false;
@@ -62,10 +70,18 @@ class ServerClient {
     }
 
     bool registerUser(const std::string& username, const std::string& password) {
+        if (!isOnline) {
+            std::cout << "No connection to server.\n";
+            return false;
+        }
         return sendPostRequest("/register", {{"username", username}, {"password", password}});
     }
 
     bool loginUser(const std::string& username, const std::string& password) {
+        if (!isOnline) {
+            std::cout << "No connection to server.\n";
+            return false;
+        }
         nlohmann::json requestBody = {
             {"username", username},
             {"password", password}
@@ -101,6 +117,10 @@ class ServerClient {
     }
 
     bool updateUserHighScore(const int& newScore) {
+        if (!isOnline) {
+            std::cout << "No connection to server.\n";
+            return false;
+        }
         if (!isTokenValid()) {
             std::cerr << "Error! Token expired.\n";
             return false;
@@ -111,6 +131,10 @@ class ServerClient {
     }
 
     std::vector<std::pair<std::string, int>> fetchLeaderboard() {
+        if (!isOnline) {
+            std::cout << "No connection to server.\n";
+            return {};
+        }
         if (!isTokenValid()) {
             std::cerr << "Error. Token expired. Please login.\n";
             return {};
