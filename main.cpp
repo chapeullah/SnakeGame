@@ -293,8 +293,8 @@ class UserInterface {
     std::array<sf::Sprite,16> blockSprites;
     std::array<sf::Texture,3> preGameTimerTextures;
     sf::Font font;
-    sf::Texture background, backgroundm, backgroundmblur, backgroundAYS, textBACK, textBACKpressed, textgoals, textgoalscontain, textquit, textquitcontain, textsetup, textsetupcontain, textstart, textstartcontain, noback, nobackdark, nored, nowhite, yesback, yesbackdark, yesgreen, yeswhite, exit, snakeback, score, zero, one, two, three, four, five, six, seven, eight, nine, locked, inGameSettingsBACK, inGameSettingsBACKpressed, inGameSettingsFRONT, inGameSettingsFRONTcont, block0, block1, block2, block3, block4, block5, block6, block7, block8, block9, block10, block11, block12, block13, block14, block15, CLS, INF, ARC, CLSwhite, INFwhite, ARCwhite, selectmodeBACK, selectsmodesBACK, selectsmodesBACKpressed, textselectmode, selectmodeESC, selectmodeESCcont, selectmodeESCBACK, selectmodeESCBACKpressed, chose0, chose1, chose2, music, musicCont, musicOFF, musicON, sound, soundCont, soundOFF, soundON0, soundON1, soundON2, speedBACK0, speedBACK0pressed, speedBACK1, speedBACK1pressed, speedBACK2, speedBACK2pressed, speedTEXT0, speedTEXT0cont, speedTEXT1, speedTEXT1cont, speedTEXT2, speedTEXT2cont, setupTextBACK, setupTextBACKpressed, textBACKSFXMSC, textBACKSFXMSCpressed, setupback, setupbackCont, backgroundg, resume, resumeCont, GREENbackground, BLUEbackground, PURPLEbackground, REDbackground, ORANGEbackground, YELLOWbackground, BLUEsnakeHead, BLUEsnakeBody, PURPLEsnakeHead, PURPLEsnakeBody, REDsnakeHead, REDsnakeBody, ORANGEsnakeHead, ORANGEsnakeBody, YELLOWsnakeHead, YELLOWsnakeBody, null, textagain, textagaincontain, ARChole, foodextra, wasted, youwon, oneBIGwhite, twoBIGwhite, threeBIGwhite, loginback, loginbackpressed, loginfront, loginfrontcont, logoutback, logoutbackpressed, logoutfront, logoutfrontcont, logreg, textloginBACK, textloginBACKpressed, textlogin, textlogincont, textsignin, textsignincont, logregESC, logregESCcont, logregESCback, logregESCbackpressed, logregback2, textlog, textpass, logregbackno, logregbacknopressed, logregbackyes, logregbackyespressed, reg, regcont, log, logcont;
-    sf::Sprite backgroundSprite, backgroundmSprite, backgroundmblurSprite, backgroundAYSSprite, textBACKSprite1, textBACKSprite2, textBACKSprite3, textBACKSprite4, textBACKpressedSprite1, textBACKpressedSprite2, textBACKpressedSprite3, textBACKpressedSprite4, textgoalsSprite, textgoalscontainSprite, textquitSprite1, textquitSprite2, textquitcontainSprite1, textquitcontainSprite2, textsetupSprite, textsetupcontainSprite, textstartSprite, textstartcontainSprite, nobackSprite, nobackdarkSprite, noredSprite1, noredSprite2, nowhiteSprite1, nowhiteSprite2, yesbackSprite, yesbackdarkSprite, yesgreenSprite, yeswhiteSprite, exitSprite, snakebackSprite, scoreSprite, zeroSprite, oneSprite, twoSprite, threeSprite, fourSprite, fiveSprite, sixSprite, sevenSprite, eightSprite, nineSprite, lockedSprite, inGameSettingsBACKSprite, inGameSettingsBACKpressedSprite, inGameSettingsFRONTSprite, inGameSettingsFRONTcontSprite, block0Sprite, block1Sprite, block2Sprite, block3Sprite, block4Sprite, block5Sprite, block6Sprite, block7Sprite, block8Sprite, block9Sprite, block10Sprite, block11Sprite, block12Sprite, block13Sprite, block14Sprite, block15Sprite, CLSSprite, INFSprite, ARCSprite, CLSwhiteSprite, INFwhiteSprite, ARCwhiteSprite, selectmodeBACKSprite, selectsmodesBACK1Sprite, selectsmodesBACK2Sprite, selectsmodesBACK3Sprite, selectsmodesBACK1pressedSprite, selectmodeESCSprite, selectsmodesBACK2pressedSprite, selectsmodesBACK3pressedSprite, textselectmodeSprite, selectmodeESCcontSprite, selectmodeESCBACKSprite, selectmodeESCBACKpressedSprite, chose0Sprite, chose1Sprite, chose2Sprite, musicSprite, musicContSprite, musicOFFSprite, musicONSprite, soundSprite, soundContSprite, soundOFFSprite, soundON0Sprite, soundON1Sprite, soundON2Sprite, speedBACK0Sprite, speedBACK0pressedSprite, speedBACK1Sprite, speedBACK1pressedSprite, speedBACK2Sprite, speedBACK2pressedSprite, speedTEXT0Sprite, speedTEXT0contSprite, speedTEXT1Sprite, speedTEXT1contSprite, speedTEXT2Sprite, speedTEXT2contSprite, setupTextBACKSprite, setupTextBACKpressedSprite, textBACKSFXMSC0Sprite, textBACKSFXMSC1Sprite, textBACKSFXMSC0pressedSprite, textBACKSFXMSC1pressedSprite, setupbackSprite, setupbackContSprite, backgroundgSprite, resumeSprite , resumeContSprite, GREENbackgroundSprite, BLUEbackgroundSprite, PURPLEbackgroundSprite, REDbackgroundSprite, ORANGEbackgroundSprite, YELLOWbackgroundSprite, BLUEsnakeHeadSprite, BLUEsnakeBodySprite, PURPLEsnakeHeadSprite, PURPLEsnakeBodySprite, REDsnakeHeadSprite, REDsnakeBodySprite, ORANGEsnakeHeadSprite, ORANGEsnakeBodySprite, YELLOWsnakeHeadSprite, YELLOWsnakeBodySprite, nullSprite, textagainSprite, textagaincontainSprite, ARCholeSprite1, ARCholeSprite2, foodextraSprite, wastedSprite, youwonSprite, oneBIGwhiteSprite, twoBIGwhiteSprite, threeBIGwhiteSprite, loginbackSprite, loginbackpressedSprite, loginfrontSprite, loginfrontcontSprite, logoutbackSprite, logoutbackpressedSprite, logoutfrontSprite, logoutfrontcontSprite, logregSprite, textloginBACKSprite, textloginBACKpressedSprite, textloginSprite, textlogincontSprite, textsigninSprite, textsignincontSprite, logregESCSprite, logregESCcontSprite, logregESCbackSprite, logregESCbackpressedSprite, logregback2Sprite, textlogSprite, textpassSprite, logregbacknoSprite, logregbacknopressedSprite, logregbackyesSprite, logregbackyespressedSprite, regSprite, regcontSprite, logSprite, logcontSprite;
+    sf::Texture background, backgroundm, backgroundmblur, backgroundAYS, textBACK, textBACKpressed, textgoals, textgoalscontain, textquit, textquitcontain, textsetup, textsetupcontain, textstart, textstartcontain, noback, nobackdark, nored, nowhite, yesback, yesbackdark, yesgreen, yeswhite, exit, snakeback, score, zero, one, two, three, four, five, six, seven, eight, nine, locked, inGameSettingsBACK, inGameSettingsBACKpressed, inGameSettingsFRONT, inGameSettingsFRONTcont, block0, block1, block2, block3, block4, block5, block6, block7, block8, block9, block10, block11, block12, block13, block14, block15, CLS, INF, ARC, CLSwhite, INFwhite, ARCwhite, selectmodeBACK, selectsmodesBACK, selectsmodesBACKpressed, textselectmode, selectmodeESC, selectmodeESCcont, selectmodeESCBACK, selectmodeESCBACKpressed, chose0, chose1, chose2, music, musicCont, musicOFF, musicON, sound, soundCont, soundOFF, soundON0, soundON1, soundON2, speedBACK0, speedBACK0pressed, speedBACK1, speedBACK1pressed, speedBACK2, speedBACK2pressed, speedTEXT0, speedTEXT0cont, speedTEXT1, speedTEXT1cont, speedTEXT2, speedTEXT2cont, setupTextBACK, setupTextBACKpressed, textBACKSFXMSC, textBACKSFXMSCpressed, setupback, setupbackCont, backgroundg, resume, resumeCont, GREENbackground, BLUEbackground, PURPLEbackground, REDbackground, ORANGEbackground, YELLOWbackground, BLUEsnakeHead, BLUEsnakeBody, PURPLEsnakeHead, PURPLEsnakeBody, REDsnakeHead, REDsnakeBody, ORANGEsnakeHead, ORANGEsnakeBody, YELLOWsnakeHead, YELLOWsnakeBody, null, textagain, textagaincontain, ARChole, foodextra, wasted, youwon, oneBIGwhite, twoBIGwhite, threeBIGwhite, loginback, loginbackpressed, loginfront, loginfrontcont, logoutback, logoutbackpressed, logoutfront, logoutfrontcont, logreg, textloginBACK, textloginBACKpressed, textlogin, textlogincont, textsignin, textsignincont, logregESC, logregESCcont, logregESCback, logregESCbackpressed, logregback2, textlog, textpass, logregbackno, logregbacknopressed, logregbackyes, logregbackyespressed, reg, regcont, log, logcont, loginbackoffline, loginfrontoffline, textbackoffline, textgoalsoffline;
+    sf::Sprite backgroundSprite, backgroundmSprite, backgroundmblurSprite, backgroundAYSSprite, textBACKSprite1, textBACKSprite2, textBACKSprite3, textBACKSprite4, textBACKpressedSprite1, textBACKpressedSprite2, textBACKpressedSprite3, textBACKpressedSprite4, textgoalsSprite, textgoalscontainSprite, textquitSprite1, textquitSprite2, textquitcontainSprite1, textquitcontainSprite2, textsetupSprite, textsetupcontainSprite, textstartSprite, textstartcontainSprite, nobackSprite, nobackdarkSprite, noredSprite1, noredSprite2, nowhiteSprite1, nowhiteSprite2, yesbackSprite, yesbackdarkSprite, yesgreenSprite, yeswhiteSprite, exitSprite, snakebackSprite, scoreSprite, zeroSprite, oneSprite, twoSprite, threeSprite, fourSprite, fiveSprite, sixSprite, sevenSprite, eightSprite, nineSprite, lockedSprite, inGameSettingsBACKSprite, inGameSettingsBACKpressedSprite, inGameSettingsFRONTSprite, inGameSettingsFRONTcontSprite, block0Sprite, block1Sprite, block2Sprite, block3Sprite, block4Sprite, block5Sprite, block6Sprite, block7Sprite, block8Sprite, block9Sprite, block10Sprite, block11Sprite, block12Sprite, block13Sprite, block14Sprite, block15Sprite, CLSSprite, INFSprite, ARCSprite, CLSwhiteSprite, INFwhiteSprite, ARCwhiteSprite, selectmodeBACKSprite, selectsmodesBACK1Sprite, selectsmodesBACK2Sprite, selectsmodesBACK3Sprite, selectsmodesBACK1pressedSprite, selectmodeESCSprite, selectsmodesBACK2pressedSprite, selectsmodesBACK3pressedSprite, textselectmodeSprite, selectmodeESCcontSprite, selectmodeESCBACKSprite, selectmodeESCBACKpressedSprite, chose0Sprite, chose1Sprite, chose2Sprite, musicSprite, musicContSprite, musicOFFSprite, musicONSprite, soundSprite, soundContSprite, soundOFFSprite, soundON0Sprite, soundON1Sprite, soundON2Sprite, speedBACK0Sprite, speedBACK0pressedSprite, speedBACK1Sprite, speedBACK1pressedSprite, speedBACK2Sprite, speedBACK2pressedSprite, speedTEXT0Sprite, speedTEXT0contSprite, speedTEXT1Sprite, speedTEXT1contSprite, speedTEXT2Sprite, speedTEXT2contSprite, setupTextBACKSprite, setupTextBACKpressedSprite, textBACKSFXMSC0Sprite, textBACKSFXMSC1Sprite, textBACKSFXMSC0pressedSprite, textBACKSFXMSC1pressedSprite, setupbackSprite, setupbackContSprite, backgroundgSprite, resumeSprite , resumeContSprite, GREENbackgroundSprite, BLUEbackgroundSprite, PURPLEbackgroundSprite, REDbackgroundSprite, ORANGEbackgroundSprite, YELLOWbackgroundSprite, BLUEsnakeHeadSprite, BLUEsnakeBodySprite, PURPLEsnakeHeadSprite, PURPLEsnakeBodySprite, REDsnakeHeadSprite, REDsnakeBodySprite, ORANGEsnakeHeadSprite, ORANGEsnakeBodySprite, YELLOWsnakeHeadSprite, YELLOWsnakeBodySprite, nullSprite, textagainSprite, textagaincontainSprite, ARCholeSprite1, ARCholeSprite2, foodextraSprite, wastedSprite, youwonSprite, oneBIGwhiteSprite, twoBIGwhiteSprite, threeBIGwhiteSprite, loginbackSprite, loginbackpressedSprite, loginfrontSprite, loginfrontcontSprite, logoutbackSprite, logoutbackpressedSprite, logoutfrontSprite, logoutfrontcontSprite, logregSprite, textloginBACKSprite, textloginBACKpressedSprite, textloginSprite, textlogincontSprite, textsigninSprite, textsignincontSprite, logregESCSprite, logregESCcontSprite, logregESCbackSprite, logregESCbackpressedSprite, logregback2Sprite, textlogSprite, textpassSprite, logregbacknoSprite, logregbacknopressedSprite, logregbackyesSprite, logregbackyespressedSprite, regSprite, regcontSprite, logSprite, logcontSprite, loginbackofflineSprite, loginfrontofflineSprite, textbackofflineSprite, textgoalsofflineSprite;
     int releasedItem, containItem, pressedItem, inGameContain, inGamePressed, inGameReleased, logregReleasedItem;
     bool isGamePaused;
 
@@ -476,6 +476,11 @@ class UserInterface {
         Texture2Sprite(regcont, regcontSprite, "assets/sprites/regcont.png", 997, 728);
         Texture2Sprite(log, logSprite, "assets/sprites/log.png", 997, 728);
         Texture2Sprite(logcont, logcontSprite, "assets/sprites/logcont.png", 997, 728);
+        Texture2Sprite(textbackoffline, textbackofflineSprite, "assets/sprites/textbackoffline.png", 750, 550);
+        Texture2Sprite(textgoalsoffline, textgoalsofflineSprite, "assets/sprites/textgoalsoffline.png", 878, 572);
+        Texture2Sprite(loginbackoffline, loginbackofflineSprite, "assets/sprites/loginbackoffline.png", 1230, 550);
+        Texture2Sprite(loginfrontoffline, loginfrontofflineSprite, "assets/sprites/loginfrontoffline.png", 1230, 550);
+        
 
         digitSprites = {
             zeroSprite, oneSprite, twoSprite, threeSprite, fourSprite, fiveSprite, sixSprite, sevenSprite, eightSprite, nineSprite
@@ -810,12 +815,14 @@ class InputManager {
             } else if (cUserInterface.textBACKSprite2.getGlobalBounds().contains(mouseFloatPos)){
                 processMouseInput(event, window, &cUserInterface.containItem, 2, &cUserInterface.pressedItem, 2, &cUserInterface.releasedItem, 2, nullptr); //SETUPmouse
             } else if (cUserInterface.textBACKSprite3.getGlobalBounds().contains(mouseFloatPos)){
-                if (processMouseInput(event, window, &cUserInterface.containItem, 3, &cUserInterface.pressedItem, 3, &cUserInterface.releasedItem, 3, nullptr)) {
-                    loadLeaderboard();
-                } //GOALSmouse
+                if (serverClient.isOnline) {
+                    if (processMouseInput(event, window, &cUserInterface.containItem, 3, &cUserInterface.pressedItem, 3, &cUserInterface.releasedItem, 3, nullptr)) {
+                        loadLeaderboard();
+                    } //GOALSmouse
+                }
             } else if (cUserInterface.textBACKSprite4.getGlobalBounds().contains(mouseFloatPos)){
                 processMouseInput(event, window, &cUserInterface.containItem, 4, &cUserInterface.pressedItem, 4, &cUserInterface.releasedItem, 4, nullptr); //QUITmouse
-            } else if (cUserInterface.loginbackSprite.getGlobalBounds().contains(mouseFloatPos)){
+            } else if (cUserInterface.loginbackSprite.getGlobalBounds().contains(mouseFloatPos) && serverClient.isOnline){
                 window.setMouseCursor(handCursor);
                 cursorSet = true;
                 cUserInterface.containItem = 6;
@@ -1240,61 +1247,100 @@ class Draw {
         if (cUserInterface.releasedItem == 0){
             window.draw(cUserInterface.backgroundmSprite);
             if (cUserInterface.pressedItem == 1){
-                window.draw(cUserInterface.textBACKpressedSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite3);window.draw(cUserInterface.textBACKSprite4);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
-                else window.draw(cUserInterface.loginbackSprite);
+                window.draw(cUserInterface.textBACKpressedSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite4);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textBACKSprite3);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
+                    else window.draw(cUserInterface.loginbackSprite);
+                }
             } else if (cUserInterface.pressedItem == 2){
-                window.draw(cUserInterface.textBACKpressedSprite2);window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKSprite3);window.draw(cUserInterface.textBACKSprite4);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
-                else window.draw(cUserInterface.loginbackSprite);
+                window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKpressedSprite2);window.draw(cUserInterface.textBACKSprite4);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textBACKSprite3);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
+                    else window.draw(cUserInterface.loginbackSprite);
+                }
             } else if (cUserInterface.pressedItem == 3){
-                window.draw(cUserInterface.textBACKpressedSprite3);window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite4);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
-                else window.draw(cUserInterface.loginbackSprite);
+                window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite4);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textBACKpressedSprite3);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
+                    else window.draw(cUserInterface.loginbackSprite);
+                }
             } else if (cUserInterface.pressedItem == 4){
-                window.draw(cUserInterface.textBACKpressedSprite4);window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite3);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
-                else window.draw(cUserInterface.loginbackSprite);
+                window.draw(cUserInterface.textBACKpressedSprite4);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite1);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textBACKSprite3);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
+                    else window.draw(cUserInterface.loginbackSprite);
+                }
             } else if (cUserInterface.pressedItem == 6){
-                window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite3);window.draw(cUserInterface.textBACKSprite4);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackpressedSprite);
-                else window.draw(cUserInterface.loginbackpressedSprite);
+                window.draw(cUserInterface.textBACKSprite1);window.draw(cUserInterface.textBACKSprite2);window.draw(cUserInterface.textBACKSprite4);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textBACKSprite3);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackpressedSprite);
+                    else window.draw(cUserInterface.loginbackpressedSprite);
+                }
             } else {
                 window.draw(cUserInterface.textBACKSprite1);
                 window.draw(cUserInterface.textBACKSprite2);
-                window.draw(cUserInterface.textBACKSprite3);
                 window.draw(cUserInterface.textBACKSprite4);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
-                else window.draw(cUserInterface.loginbackSprite);
-                
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textBACKSprite3);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutbackSprite);
+                    else window.draw(cUserInterface.loginbackSprite);
+                }
             }
             if (cUserInterface.containItem == 1){
-                window.draw(cUserInterface.textstartcontainSprite);window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textgoalsSprite);window.draw(cUserInterface.textquitSprite1);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
-                else window.draw(cUserInterface.loginfrontSprite);
+                window.draw(cUserInterface.textstartcontainSprite);window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textquitSprite1);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textgoalsSprite);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
+                    else window.draw(cUserInterface.loginfrontSprite);
+                }
             } else if (cUserInterface.containItem == 2){
-                window.draw(cUserInterface.textsetupcontainSprite);window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textgoalsSprite);window.draw(cUserInterface.textquitSprite1);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
-                else window.draw(cUserInterface.loginfrontSprite);
+                window.draw(cUserInterface.textsetupcontainSprite);window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textquitSprite1);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textgoalsSprite);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
+                    else window.draw(cUserInterface.loginfrontSprite);
+                }
             } else if (cUserInterface.containItem == 3){
-                window.draw(cUserInterface.textgoalscontainSprite);window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textquitSprite1);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
-                else window.draw(cUserInterface.loginfrontSprite);
+                window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textquitSprite1);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textgoalscontainSprite);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
+                    else window.draw(cUserInterface.loginfrontSprite);
+                }
             } else if (cUserInterface.containItem == 4){
-                window.draw(cUserInterface.textquitcontainSprite1);window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textgoalsSprite);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
-                else window.draw(cUserInterface.loginfrontSprite);
+                window.draw(cUserInterface.textquitcontainSprite1);window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textsetupSprite);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textgoalsSprite);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
+                    else window.draw(cUserInterface.loginfrontSprite);
+                }
             } else if (cUserInterface.containItem == 6){
-                window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textgoalsSprite);window.draw(cUserInterface.textquitSprite1);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontcontSprite);
-                else window.draw(cUserInterface.loginfrontcontSprite);
+                window.draw(cUserInterface.textstartSprite);window.draw(cUserInterface.textsetupSprite);window.draw(cUserInterface.textquitSprite1);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textgoalsSprite);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontcontSprite);
+                    else window.draw(cUserInterface.loginfrontcontSprite);
+                }
             } else {
                 window.draw(cUserInterface.textstartSprite);
                 window.draw(cUserInterface.textsetupSprite);
-                window.draw(cUserInterface.textgoalsSprite);
                 window.draw(cUserInterface.textquitSprite1);
-                if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
-                else window.draw(cUserInterface.loginfrontSprite);
+                if (serverClient.isOnline) {
+                    window.draw(cUserInterface.textgoalsSprite);
+                    if (serverClient.isAuthorized) window.draw(cUserInterface.logoutfrontSprite);
+                    else window.draw(cUserInterface.loginfrontSprite);
+                }
+            }
+            if (!serverClient.isOnline) {
+                window.draw(cUserInterface.loginbackofflineSprite);
+                window.draw(cUserInterface.loginfrontofflineSprite);
+                window.draw(cUserInterface.textbackofflineSprite);
+                window.draw(cUserInterface.textgoalsofflineSprite);
             }
         } else if (cUserInterface.releasedItem == 1){
             window.draw(cUserInterface.backgroundmSprite);
@@ -1336,12 +1382,17 @@ class Draw {
             window.draw(cUserInterface.textBACKpressedSprite4);
             window.draw(cUserInterface.textquitcontainSprite1);
             window.draw(cUserInterface.textstartSprite);
-            if (serverClient.isAuthorized) {
-                window.draw(cUserInterface.logoutbackSprite);
-                window.draw(cUserInterface.logoutfrontSprite);
+            if (serverClient.isOnline) {
+                if (serverClient.isAuthorized) {
+                    window.draw(cUserInterface.logoutbackSprite);
+                    window.draw(cUserInterface.logoutfrontSprite);
+                } else {
+                    window.draw(cUserInterface.loginbackSprite);
+                    window.draw(cUserInterface.loginfrontSprite);
+                }
             } else {
-                window.draw(cUserInterface.loginbackSprite);
-                window.draw(cUserInterface.loginfrontSprite);
+                window.draw(cUserInterface.loginbackofflineSprite);
+                window.draw(cUserInterface.loginfrontofflineSprite);
             }
             window.draw(cUserInterface.backgroundAYSSprite);
             window.draw(cUserInterface.exitSprite);
