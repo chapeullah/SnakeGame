@@ -13,8 +13,8 @@ OpenSSL – Secure connection handling<br>
 1. Download the Game<br>
 Download the latest release
 
-3. Launch the Game<br>
+2. Launch the Game<br>
 Run the snake_game.exe
 
-5. Ensure the Server is Running (Optional)<br>
+3. Ensure the Server is Running (Optional)<br>
 If you want to run your own server instead of using the default one, start the server manually:
