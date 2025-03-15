@@ -10,11 +10,5 @@ PostgreSQL – Database for storing scores and user data<br>
 OpenSSL – Secure connection handling<br>
 
 **How to Run**<br>
-1. Download the Game<br>
-Download the latest release
-
-2. Launch the Game<br>
-Run the snake_game.exe
-
-3. Ensure the Server is Running (Optional)<br>
-If you want to run your own server instead of using the default one, start the server manually:
+1. Download the latest release<br>
+2. Run the snake_game.exe<br>
