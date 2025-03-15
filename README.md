@@ -8,6 +8,7 @@ httplib – HTTP communication
 nlohmann/json – JSON parsing
 PostgreSQL – Database for storing scores and user data
 OpenSSL – Secure connection handling
+
 **How to Run**
 1. Download the Game
 Download the latest release
